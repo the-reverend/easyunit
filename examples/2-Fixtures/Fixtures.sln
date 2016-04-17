@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fixtures", "Fixtures.vcproj", "{62C715A3-77F2-4A5D-87E0-9502333C75F7}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{2BF99972-4DA8-4E2E-BB0B-C7074E691009} = {2BF99972-4DA8-4E2E-BB0B-C7074E691009}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EasyUnit", "..\..\EasyUnit.vcproj", "{2BF99972-4DA8-4E2E-BB0B-C7074E691009}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62C715A3-77F2-4A5D-87E0-9502333C75F7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{62C715A3-77F2-4A5D-87E0-9502333C75F7}.Debug|Win32.Build.0 = Debug|Win32
+		{62C715A3-77F2-4A5D-87E0-9502333C75F7}.Release|Win32.ActiveCfg = Release|Win32
+		{62C715A3-77F2-4A5D-87E0-9502333C75F7}.Release|Win32.Build.0 = Release|Win32
+		{2BF99972-4DA8-4E2E-BB0B-C7074E691009}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2BF99972-4DA8-4E2E-BB0B-C7074E691009}.Debug|Win32.Build.0 = Debug|Win32
+		{2BF99972-4DA8-4E2E-BB0B-C7074E691009}.Release|Win32.ActiveCfg = Release|Win32
+		{2BF99972-4DA8-4E2E-BB0B-C7074E691009}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
